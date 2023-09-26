@@ -4,22 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bascket</title>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+li img{
+    width: 40px;
+    height: 50px;
+    padding: 10px;
+}
+</style>
 </head>
 <body>
-    <h1>bascket</h1>
-    <table style="border: 1px solid black;">
-        <tr>
-            <th>image</th>
-            <td><img src="image.jpg"></td>
-        </tr>
-        <tr>
-            <th>Qte</th>
-            <td>99Kg</td>
-        </tr>
-        <tr>
-            <th>Prix</th>
-            <td>99.99$</td>
-        </tr>
-    </table>
+
+<ul>
+  <li><img src="flower.jpg"></li>
+  <li><a class="active" href="home.html">Home</a></li>
+  <li><a href="index.html">index</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="product.html">product</a></li>
+  <li><a href="basket.html">basket</a></li>
+  <li><a href="gallery.html">gallery</a></li>
+  <li><a href="delivery.html">delivery</a></li>
+  <li><a href="history.html">history</a></li>
+  
+</ul>
+<h1>bascket</h1>
+<table style="border: 1px solid black;">
+    <tr>
+        <th>image</th>
+        <td><img src="image.jpg"></td>
+    </tr>
+    <tr>
+        <th>Qte</th>
+        <td>99Kg</td>
+    </tr>
+    <tr>
+        <th>Prix</th>
+        <td>99.99$</td>
+    </tr>
+</table>
 </body>
 </html>
