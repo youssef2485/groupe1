@@ -5,6 +5,10 @@
 function myFunction() {
     console.log("Key pressed :"+event.target.id);
   document.getElementById("demo").value += event.target.id;
+  
+}
+function compute() {
+    document.getElementById("demo").value = eval(document.getElementById("demo").value);
 }
 </script>
 </head>
@@ -80,7 +84,7 @@ function myFunction() {
             <button type="button" id="." onclick="myFunction()">.</button>
         </td>
         <td>
-            <button type="button" id="=" onclick="myFunction()">=</button>
+            <button type="button" id="=" onclick="compute()">=</button>
         
         </td>
         <td>
